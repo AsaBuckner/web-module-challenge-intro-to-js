@@ -76,7 +76,7 @@ Do the following:
     let solution = a*b
     return solution
   }
-multiply(3,8)
+
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -93,7 +93,7 @@ function dogYears(age){
  let dogYears = age*7
  return dogYears
 }
-dogYears(21)
+
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -164,7 +164,7 @@ function hungryDog(pounds,years){
   }
 }
 }
-hungryDog()
+
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -219,9 +219,9 @@ Using the miles function below do the following:
 3. Return the number of miles
 */
 
-function miles(kilometers){
-  let conversion = kilometer*1.609
-  return (converion," mi.")
+function miles(km){
+  let conversion = km*0.621371
+  return (converion)
 }
 
 
@@ -235,8 +235,8 @@ Using the feet function below do the following:
 */
 
 function feet(cm){
-  const feet = cm/38.48
-  return feet
+  const conv = cm/38.48
+  return conv
 }
 
 
@@ -295,11 +295,11 @@ function grade(score){
 if(score >= 90 && score <= 100){
 return 'you got an A'
 }else if(score >= 80 && score <= 89){
-  return 'you got an B'
+  return 'you got a B'
 }else if(score >= 70 && score <= 79){
-  return 'you got an C'
+  return 'you got a C'
 }else if(score >= 60 && score <= 69){
-  return 'you got an D'
+  return 'you got a D'
 }else if(score < 60){
   return 'you got an F'
 }
