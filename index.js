@@ -220,8 +220,8 @@ Using the miles function below do the following:
 */
 
 function miles(km){
-  let conversion = km*0.621371
-  return (converion)
+  let conv = km*0.621371
+  return conv
 }
 
 
@@ -235,7 +235,7 @@ Using the feet function below do the following:
 */
 
 function feet(cm){
-  const conv = cm/38.48
+  const conv = cm/30.48
   return conv
 }
 
