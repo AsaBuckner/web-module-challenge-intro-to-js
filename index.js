@@ -192,7 +192,7 @@ if(compChoice <= .33){
   compChoice = "rock"
 }else if(compChoice > .33 && compChoice <= .66 ){
   compChoice = "paper"
-}else if(compchoice > .66 && compChoice <= 1){
+}else if(compChoice > .66 && compChoice <= 1){
   compChoice = "scissors"
 }
 
