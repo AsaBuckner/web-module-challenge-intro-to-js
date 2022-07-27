@@ -258,22 +258,13 @@ Using the annoyingSong function below do the following:
 
 function annoyingSong(startingNum)
 {
+while(startingNum > 0 )
   {
-    
-    if (startingNum >= 1)
-    {
-     while (startingNum >= 1){
-      console.log(startingNum +" bottles of soda on the wall, "+ startingNum +" bottles of soda, take one down pass it around "+ (startingNum - 1) +" bottles of soda on the wall");
-      
-      startingNum--
-    
-    }
+    console.log(`${startingNum} bottles of soda on the wall, ${startingNum} bottles of soda, take one down pass it around ${startingNum - 1} bottles of soda on the wall`)
+    startingNum--
+  }
 
-  } 
 }
-}
-
-
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
